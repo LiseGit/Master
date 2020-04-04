@@ -1,0 +1,78 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\SvgImages\active_state_marker.svg" />
+    <None Remove="Resources\SvgImages\icon_reconciliation.svg" />
+    <None Remove="Resources\SvgImages\icon_search.svg" />
+    <None Remove="Resources\SvgImages\inventory_icon.svg" />
+    <None Remove="Resources\SvgImages\offline_icon.svg" />
+    <None Remove="Resources\SvgImages\online_icon.svg" />
+    <None Remove="Resources\SvgImages\settings_icon.svg" />
+    <None Remove="Resources\SvgImages\SmartSuite_apple_icon.svg" />
+    <None Remove="Resources\SvgImages\SmartSuite_grapefruit_icon.svg" />
+    <None Remove="Resources\SvgImages\SmartSuite_light_gold_icon.svg" />
+    <None Remove="Resources\SvgImages\SmartSuite_orangeish_icon.svg" />
+    <None Remove="Resources\SvgImages\SmartSuite_sky_blue_icon.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\SvgImages\active_state_marker.svg" />
+    <EmbeddedResource Include="Resources\SvgImages\icon_reconciliation.svg" />
+    <EmbeddedResource Include="Resources\SvgImages\icon_search.svg" />
+    <EmbeddedResource Include="Resources\SvgImages\inventory_icon.svg" />
+    <EmbeddedResource Include="Resources\SvgImages\offline_icon.svg" />
+    <EmbeddedResource Include="Resources\SvgImages\online_icon.svg" />
+    <EmbeddedResource Include="Resources\SvgImages\settings_icon.svg" />
+    <EmbeddedResource Include="Resources\SvgImages\SmartSuite_apple_icon.svg" />
+    <EmbeddedResource Include="Resources\SvgImages\SmartSuite_grapefruit_icon.svg" />
+    <EmbeddedResource Include="Resources\SvgImages\SmartSuite_light_gold_icon.svg" />
+    <EmbeddedResource Include="Resources\SvgImages\SmartSuite_orangeish_icon.svg" />
+    <EmbeddedResource Include="Resources\SvgImages\SmartSuite_sky_blue_icon.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FreshMvvm" Version="3.0.0" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.FFImageLoading.Svg.Forms" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.4.0" />
+    <PackageReference Include="Xamarin.Forms.GoogleMaps" Version="3.3.0" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="4.3.0.908675" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Pages\InventoryPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\MenuPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\ReconciliationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\SDSPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\SearchAndBrowsePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Pages\SettingsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

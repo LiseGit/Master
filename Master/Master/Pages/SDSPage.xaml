@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:map="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:local="clr-namespace:Master.CustomControls"
+             mc:Ignorable="d"
+             x:Class="Master.Pages.SDSPage">
+    <ContentPage.Content>
+        <Grid>
+            <!--<map:Map MapType="Street" HasZoomEnabled="True">
+                <map:Map.Pins>
+                    <map:Pin Label="Santa Cruz"
+                       Address="The city with a boardwalk"
+                       Type="Place">
+                        <map:Pin.Position>
+                            <map:Position>
+                                <x:Arguments>
+                                    <x:Double>36.9628066</x:Double>
+                                    <x:Double>-122.0194722</x:Double>
+                                </x:Arguments>
+                            </map:Position>
+                        </map:Pin.Position>
+                    </map:Pin>
+                </map:Map.Pins>
+            </map:Map>-->
+            <local:ExtMapControl >
+                <local:ExtMapControl.Pins>
+                    <map:Pin Label="Pin"  Position="{Binding Position}"/>
+                </local:ExtMapControl.Pins>
+            </local:ExtMapControl>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

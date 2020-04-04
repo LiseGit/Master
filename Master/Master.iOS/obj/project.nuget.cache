@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "R1ZCQRt2MWmswDpK9zLg3gvagr8ev7OYAkHcRz+9YBs/2QDmDGz6oJTWihDg0vCsnTWluUvDfwXZuWEtZ8T2Ng==",
+  "success": true,
+  "projectFilePath": "D:\\Tasks\\Master\\Master\\Master\\Master.iOS\\Master.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lise\\.nuget\\packages\\freshmvvm\\3.0.0\\freshmvvm.3.0.0.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\skiasharp\\1.68.0\\skiasharp.1.68.0.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\system.reactive\\4.0.0\\system.reactive.4.0.0.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\webp.touch\\1.0.8\\webp.touch.1.0.8.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\xamarin.build.download\\0.4.11\\xamarin.build.download.0.4.11.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\xamarin.essentials\\1.4.0\\xamarin.essentials.1.4.0.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\xamarin.ffimageloading\\2.4.11.982\\xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\xamarin.ffimageloading.forms\\2.4.11.982\\xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\xamarin.ffimageloading.svg\\2.4.11.982\\xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\xamarin.ffimageloading.svg.forms\\2.4.11.982\\xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\xamarin.ffimageloading.transformations\\2.4.11.982\\xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\xamarin.forms\\4.3.0.908675\\xamarin.forms.4.3.0.908675.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\xamarin.forms.googlemaps\\3.3.0\\xamarin.forms.googlemaps.3.3.0.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\xamarin.forms.maps\\4.3.0.908675\\xamarin.forms.maps.4.3.0.908675.nupkg.sha512",
+    "C:\\Users\\Lise\\.nuget\\packages\\xamarin.google.ios.maps\\3.5.0\\xamarin.google.ios.maps.3.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

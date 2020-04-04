@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Master.Pages.ReconciliationPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="clr-namespace:Master.CustomControls"
+    BackgroundColor="{StaticResource dark}"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <StackLayout Padding="18.7,0,18.7,0">
+            <controls:CustomPickerControl Title="Location" PickerBorderColor="{StaticResource slate_grey_two}"></controls:CustomPickerControl>
+            <controls:CustomDatePickerControl/>
+            <controls:CustomPickerControl PickerBorderColor="{StaticResource slate_grey_two}"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
